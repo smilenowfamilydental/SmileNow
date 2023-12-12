@@ -1,0 +1,138 @@
+[13-Jul-2019 11:17:59 America/Chicago] PHP Warning:  file_get_contents(email/appointment-admin.html): failed to open stream: Permission denied in /home3/gramstec/public_html/snfd/js/appointment-form.php on line 93
+[13-Jul-2019 11:18:00 America/Chicago] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'SMTP Error: Could not authenticate.' in /home3/gramstec/public_html/snfd/js/PHPMailer-master/class.phpmailer.php:1611
+Stack trace:
+#0 /home3/gramstec/public_html/snfd/js/PHPMailer-master/class.phpmailer.php(1464): PHPMailer->smtpConnect(Array)
+#1 /home3/gramstec/public_html/snfd/js/PHPMailer-master/class.phpmailer.php(1301): PHPMailer->smtpSend('Date: Sat, 13 J...', 'This is a multi...')
+#2 /home3/gramstec/public_html/snfd/js/PHPMailer-master/class.phpmailer.php(1181): PHPMailer->postSend()
+#3 /home3/gramstec/public_html/snfd/js/mail.php(35): PHPMailer->send()
+#4 /home3/gramstec/public_html/snfd/js/appointment-form.php(129): smtpmailer('sravanreddy13@g...', 'snfdental@gmail...', 'Smile Now Famil...', 'Appointment Req...', 'We recieved you...')
+#5 {main}
+  thrown in /home3/gramstec/public_html/snfd/js/PHPMailer-master/class.phpmailer.php on line 1611
+[17-Jul-2019 17:54:26 America/Chicago] PHP Warning:  file_get_contents(email/appointment-admin.html): failed to open stream: Permission denied in /home3/gramstec/public_html/snfd/js/appointment-form.php on line 93
+[17-Jul-2019 17:54:27 America/Chicago] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'SMTP Error: Could not authenticate.' in /home3/gramstec/public_html/snfd/js/PHPMailer-master/class.phpmailer.php:1611
+Stack trace:
+#0 /home3/gramstec/public_html/snfd/js/PHPMailer-master/class.phpmailer.php(1464): PHPMailer->smtpConnect(Array)
+#1 /home3/gramstec/public_html/snfd/js/PHPMailer-master/class.phpmailer.php(1301): PHPMailer->smtpSend('Date: Wed, 17 J...', 'This is a multi...')
+#2 /home3/gramstec/public_html/snfd/js/PHPMailer-master/class.phpmailer.php(1181): PHPMailer->postSend()
+#3 /home3/gramstec/public_html/snfd/js/mail.php(35): PHPMailer->send()
+#4 /home3/gramstec/public_html/snfd/js/appointment-form.php(129): smtpmailer('vibeeshan_reddy...', 'snfdental@gmail...', 'Smile Now Famil...', 'Appointment Req...', 'We recieved you...')
+#5 {main}
+  thrown in /home3/gramstec/public_html/snfd/js/PHPMailer-master/class.phpmailer.php on line 1611
+[21-Jul-2019 12:42:24 America/Chicago] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'SMTP Error: Could not authenticate.' in /home3/gramstec/public_html/snfd/js/PHPMailer-master/class.phpmailer.php:1611
+Stack trace:
+#0 /home3/gramstec/public_html/snfd/js/PHPMailer-master/class.phpmailer.php(1464): PHPMailer->smtpConnect(Array)
+#1 /home3/gramstec/public_html/snfd/js/PHPMailer-master/class.phpmailer.php(1301): PHPMailer->smtpSend('Date: Sun, 21 J...', 'This is a multi...')
+#2 /home3/gramstec/public_html/snfd/js/PHPMailer-master/class.phpmailer.php(1181): PHPMailer->postSend()
+#3 /home3/gramstec/public_html/snfd/js/mail.php(35): PHPMailer->send()
+#4 /home3/gramstec/public_html/snfd/js/appointment-form.php(136): smtpmailer('sravanreddy13@g...', 'sravangereddy@g...', 'Smile Now Famil...', 'Appointment Req...', 'We recieved you...')
+#5 {main}
+  thrown in /home3/gramstec/public_html/snfd/js/PHPMailer-master/class.phpmailer.php on line 1611
+[21-Jul-2019 12:44:40 America/Chicago] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'SMTP Error: Could not authenticate.' in /home3/gramstec/public_html/snfd/js/PHPMailer-master/class.phpmailer.php:1611
+Stack trace:
+#0 /home3/gramstec/public_html/snfd/js/PHPMailer-master/class.phpmailer.php(1464): PHPMailer->smtpConnect(Array)
+#1 /home3/gramstec/public_html/snfd/js/PHPMailer-master/class.phpmailer.php(1301): PHPMailer->smtpSend('Date: Sun, 21 J...', 'This is a multi...')
+#2 /home3/gramstec/public_html/snfd/js/PHPMailer-master/class.phpmailer.php(1181): PHPMailer->postSend()
+#3 /home3/gramstec/public_html/snfd/js/mail.php(35): PHPMailer->send()
+#4 /home3/gramstec/public_html/snfd/js/appointment-form.php(136): smtpmailer('s@gmail.com', 'sravangereddy@g...', 'Smile Now Famil...', 'Appointment Req...', 'We recieved you...')
+#5 {main}
+  thrown in /home3/gramstec/public_html/snfd/js/PHPMailer-master/class.phpmailer.php on line 1611
+[21-Jul-2019 12:47:50 America/Chicago] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'SMTP Error: Could not authenticate.' in /home3/gramstec/public_html/snfd/js/PHPMailer-master/class.phpmailer.php:1611
+Stack trace:
+#0 /home3/gramstec/public_html/snfd/js/PHPMailer-master/class.phpmailer.php(1464): PHPMailer->smtpConnect(Array)
+#1 /home3/gramstec/public_html/snfd/js/PHPMailer-master/class.phpmailer.php(1301): PHPMailer->smtpSend('Date: Sun, 21 J...', 'This is a multi...')
+#2 /home3/gramstec/public_html/snfd/js/PHPMailer-master/class.phpmailer.php(1181): PHPMailer->postSend()
+#3 /home3/gramstec/public_html/snfd/js/mail.php(35): PHPMailer->send()
+#4 /home3/gramstec/public_html/snfd/js/appointment-form.php(136): smtpmailer('s@gmail.com', 'sravangereddy@g...', 'Smile Now Famil...', 'Appointment Req...', 'We recieved you...')
+#5 {main}
+  thrown in /home3/gramstec/public_html/snfd/js/PHPMailer-master/class.phpmailer.php on line 1611
+[22-Jul-2019 12:00:21 America/Chicago] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'SMTP Error: Could not authenticate.' in /home3/gramstec/public_html/snfd/js/PHPMailer-master/class.phpmailer.php:1611
+Stack trace:
+#0 /home3/gramstec/public_html/snfd/js/PHPMailer-master/class.phpmailer.php(1464): PHPMailer->smtpConnect(Array)
+#1 /home3/gramstec/public_html/snfd/js/PHPMailer-master/class.phpmailer.php(1301): PHPMailer->smtpSend('Date: Mon, 22 J...', 'This is a multi...')
+#2 /home3/gramstec/public_html/snfd/js/PHPMailer-master/class.phpmailer.php(1181): PHPMailer->postSend()
+#3 /home3/gramstec/public_html/snfd/js/mail.php(35): PHPMailer->send()
+#4 /home3/gramstec/public_html/snfd/js/appointment-form.php(136): smtpmailer('sravanreddy13@g...', 'sravangereddy@g...', 'Smile Now Famil...', 'Appointment Req...', 'We recieved you...')
+#5 {main}
+  thrown in /home3/gramstec/public_html/snfd/js/PHPMailer-master/class.phpmailer.php on line 1611
+[22-Jul-2019 15:52:28 America/Chicago] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'SMTP Error: Could not authenticate.' in /home3/gramstec/public_html/snfd/js/PHPMailer-master/class.phpmailer.php:1611
+Stack trace:
+#0 /home3/gramstec/public_html/snfd/js/PHPMailer-master/class.phpmailer.php(1464): PHPMailer->smtpConnect(Array)
+#1 /home3/gramstec/public_html/snfd/js/PHPMailer-master/class.phpmailer.php(1301): PHPMailer->smtpSend('Date: Mon, 22 J...', 'This is a multi...')
+#2 /home3/gramstec/public_html/snfd/js/PHPMailer-master/class.phpmailer.php(1181): PHPMailer->postSend()
+#3 /home3/gramstec/public_html/snfd/js/mail.php(35): PHPMailer->send()
+#4 /home3/gramstec/public_html/snfd/js/appointment-form.php(136): smtpmailer('vibeeshan_reddy...', 'sravangereddy@g...', 'Smile Now Famil...', 'Appointment Req...', 'We recieved you...')
+#5 {main}
+  thrown in /home3/gramstec/public_html/snfd/js/PHPMailer-master/class.phpmailer.php on line 1611
+[24-Jul-2019 11:54:17 America/Chicago] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'SMTP Error: Could not authenticate.' in /home3/gramstec/public_html/snfd/js/PHPMailer-master/class.phpmailer.php:1611
+Stack trace:
+#0 /home3/gramstec/public_html/snfd/js/PHPMailer-master/class.phpmailer.php(1464): PHPMailer->smtpConnect(Array)
+#1 /home3/gramstec/public_html/snfd/js/PHPMailer-master/class.phpmailer.php(1301): PHPMailer->smtpSend('Date: Wed, 24 J...', 'This is a multi...')
+#2 /home3/gramstec/public_html/snfd/js/PHPMailer-master/class.phpmailer.php(1181): PHPMailer->postSend()
+#3 /home3/gramstec/public_html/snfd/js/mail.php(35): PHPMailer->send()
+#4 /home3/gramstec/public_html/snfd/js/appointment-form.php(136): smtpmailer('sravan@gmail.co...', 'sravangereddy@g...', 'Smile Now Famil...', 'Appointment Req...', 'We recieved you...')
+#5 {main}
+  thrown in /home3/gramstec/public_html/snfd/js/PHPMailer-master/class.phpmailer.php on line 1611
+[24-Jul-2019 11:58:17 America/Chicago] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'SMTP Error: Could not authenticate.' in /home3/gramstec/public_html/snfd/js/PHPMailer-master/class.phpmailer.php:1611
+Stack trace:
+#0 /home3/gramstec/public_html/snfd/js/PHPMailer-master/class.phpmailer.php(1464): PHPMailer->smtpConnect(Array)
+#1 /home3/gramstec/public_html/snfd/js/PHPMailer-master/class.phpmailer.php(1301): PHPMailer->smtpSend('Date: Wed, 24 J...', 'This is a multi...')
+#2 /home3/gramstec/public_html/snfd/js/PHPMailer-master/class.phpmailer.php(1181): PHPMailer->postSend()
+#3 /home3/gramstec/public_html/snfd/js/mail.php(35): PHPMailer->send()
+#4 /home3/gramstec/public_html/snfd/js/appointment-form.php(136): smtpmailer('sravanreddy13@g...', 'sravangereddy@g...', 'Smile Now Famil...', 'Appointment Req...', 'We recieved you...')
+#5 {main}
+  thrown in /home3/gramstec/public_html/snfd/js/PHPMailer-master/class.phpmailer.php on line 1611
+[24-Jul-2019 12:00:05 America/Chicago] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'SMTP Error: Could not authenticate.' in /home3/gramstec/public_html/snfd/js/PHPMailer-master/class.phpmailer.php:1611
+Stack trace:
+#0 /home3/gramstec/public_html/snfd/js/PHPMailer-master/class.phpmailer.php(1464): PHPMailer->smtpConnect(Array)
+#1 /home3/gramstec/public_html/snfd/js/PHPMailer-master/class.phpmailer.php(1301): PHPMailer->smtpSend('Date: Wed, 24 J...', 'This is a multi...')
+#2 /home3/gramstec/public_html/snfd/js/PHPMailer-master/class.phpmailer.php(1181): PHPMailer->postSend()
+#3 /home3/gramstec/public_html/snfd/js/mail.php(35): PHPMailer->send()
+#4 /home3/gramstec/public_html/snfd/js/appointment-form.php(136): smtpmailer('sravanreddy13@g...', 'sravan.gereddy@...', 'Smile Now Famil...', 'Appointment Req...', 'We recieved you...')
+#5 {main}
+  thrown in /home3/gramstec/public_html/snfd/js/PHPMailer-master/class.phpmailer.php on line 1611
+[24-Jul-2019 12:51:45 America/Chicago] PHP Parse error:  syntax error, unexpected '$lname' (T_VARIABLE) in /home3/gramstec/public_html/snfd/js/contact-form.php on line 61
+[01-Aug-2019 17:35:32 America/Chicago] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Invalid address:  (addAnAddress to): smilenowfamilydental@gmail.com@gmail.com' in /home3/gramstec/smilenowfamilydental.com/js/PHPMailer-master/class.phpmailer.php:908
+Stack trace:
+#0 [internal function]: PHPMailer->addAnAddress('to', 'smilenowfamilyd...', 'Recepient Name')
+#1 /home3/gramstec/smilenowfamilydental.com/js/PHPMailer-master/class.phpmailer.php(879): call_user_func_array(Array, Array)
+#2 /home3/gramstec/smilenowfamilydental.com/js/PHPMailer-master/class.phpmailer.php(798): PHPMailer->addOrEnqueueAnAddress('to', 'smilenowfamilyd...', 'Recepient Name')
+#3 /home3/gramstec/smilenowfamilydental.com/js/mail.php(27): PHPMailer->addAddress('smilenowfamilyd...', 'Recepient Name')
+#4 /home3/gramstec/smilenowfamilydental.com/js/appointment-form.php(137): smtpmailer('smilenowfamilyd...', 'sravan.gereddy@...', 'Smile Now Famil...', 'Appointment Req...', 'You have an app...')
+#5 {main}
+  thrown in /home3/gramstec/smilenowfamilydental.com/js/PHPMailer-master/class.phpmailer.php on line 908
+[01-Aug-2019 22:21:52 America/Chicago] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Invalid address:  (addAnAddress to): smilenowfamilydental@gmail.com@gmail.com' in /home3/gramstec/smilenowfamilydental.com/js/PHPMailer-master/class.phpmailer.php:908
+Stack trace:
+#0 [internal function]: PHPMailer->addAnAddress('to', 'smilenowfamilyd...', 'Recepient Name')
+#1 /home3/gramstec/smilenowfamilydental.com/js/PHPMailer-master/class.phpmailer.php(879): call_user_func_array(Array, Array)
+#2 /home3/gramstec/smilenowfamilydental.com/js/PHPMailer-master/class.phpmailer.php(798): PHPMailer->addOrEnqueueAnAddress('to', 'smilenowfamilyd...', 'Recepient Name')
+#3 /home3/gramstec/smilenowfamilydental.com/js/mail.php(27): PHPMailer->addAddress('smilenowfamilyd...', 'Recepient Name')
+#4 /home3/gramstec/smilenowfamilydental.com/js/appointment-form.php(137): smtpmailer('smilenowfamilyd...', 'sravan.gereddy@...', 'Smile Now Famil...', 'Appointment Req...', 'You have an app...')
+#5 {main}
+  thrown in /home3/gramstec/smilenowfamilydental.com/js/PHPMailer-master/class.phpmailer.php on line 908
+[01-Aug-2019 22:22:39 America/Chicago] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Invalid address:  (addAnAddress to): smilenowfamilydental@gmail.com@gmail.com' in /home3/gramstec/smilenowfamilydental.com/js/PHPMailer-master/class.phpmailer.php:908
+Stack trace:
+#0 [internal function]: PHPMailer->addAnAddress('to', 'smilenowfamilyd...', 'Recepient Name')
+#1 /home3/gramstec/smilenowfamilydental.com/js/PHPMailer-master/class.phpmailer.php(879): call_user_func_array(Array, Array)
+#2 /home3/gramstec/smilenowfamilydental.com/js/PHPMailer-master/class.phpmailer.php(798): PHPMailer->addOrEnqueueAnAddress('to', 'smilenowfamilyd...', 'Recepient Name')
+#3 /home3/gramstec/smilenowfamilydental.com/js/mail.php(27): PHPMailer->addAddress('smilenowfamilyd...', 'Recepient Name')
+#4 /home3/gramstec/smilenowfamilydental.com/js/appointment-form.php(137): smtpmailer('smilenowfamilyd...', 'sravan.gereddy@...', 'Smile Now Famil...', 'Appointment Req...', 'You have an app...')
+#5 {main}
+  thrown in /home3/gramstec/smilenowfamilydental.com/js/PHPMailer-master/class.phpmailer.php on line 908
+[01-Aug-2019 22:29:58 America/Chicago] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Invalid address:  (addAnAddress to): smilenowfamilydental@gmail.com@gmail.com' in /home3/gramstec/smilenowfamilydental.com/js/PHPMailer-master/class.phpmailer.php:908
+Stack trace:
+#0 [internal function]: PHPMailer->addAnAddress('to', 'smilenowfamilyd...', 'Recepient Name')
+#1 /home3/gramstec/smilenowfamilydental.com/js/PHPMailer-master/class.phpmailer.php(879): call_user_func_array(Array, Array)
+#2 /home3/gramstec/smilenowfamilydental.com/js/PHPMailer-master/class.phpmailer.php(798): PHPMailer->addOrEnqueueAnAddress('to', 'smilenowfamilyd...', 'Recepient Name')
+#3 /home3/gramstec/smilenowfamilydental.com/js/mail.php(27): PHPMailer->addAddress('smilenowfamilyd...', 'Recepient Name')
+#4 /home3/gramstec/smilenowfamilydental.com/js/appointment-form.php(137): smtpmailer('smilenowfamilyd...', 'sravan.gereddy@...', 'Smile Now Famil...', 'Appointment Req...', 'You have an app...')
+#5 {main}
+  thrown in /home3/gramstec/smilenowfamilydental.com/js/PHPMailer-master/class.phpmailer.php on line 908
+[01-Aug-2019 22:32:58 America/Chicago] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Invalid address:  (addAnAddress to): smilenowfamilydental@gmail.com@gmail.com' in /home3/gramstec/smilenowfamilydental.com/js/PHPMailer-master/class.phpmailer.php:908
+Stack trace:
+#0 [internal function]: PHPMailer->addAnAddress('to', 'smilenowfamilyd...', 'Recepient Name')
+#1 /home3/gramstec/smilenowfamilydental.com/js/PHPMailer-master/class.phpmailer.php(879): call_user_func_array(Array, Array)
+#2 /home3/gramstec/smilenowfamilydental.com/js/PHPMailer-master/class.phpmailer.php(798): PHPMailer->addOrEnqueueAnAddress('to', 'smilenowfamilyd...', 'Recepient Name')
+#3 /home3/gramstec/smilenowfamilydental.com/js/mail.php(27): PHPMailer->addAddress('smilenowfamilyd...', 'Recepient Name')
+#4 /home3/gramstec/smilenowfamilydental.com/js/appointment-form.php(137): smtpmailer('smilenowfamilyd...', 'sravan.gereddy@...', 'Smile Now Famil...', 'Appointment Req...', 'You have an app...')
+#5 {main}
+  thrown in /home3/gramstec/smilenowfamilydental.com/js/PHPMailer-master/class.phpmailer.php on line 908
